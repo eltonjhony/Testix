@@ -6,6 +6,9 @@
 ## Install Pip
 - apt-get install python-pip
 
+## Install Django
+- pip install django
+
 ## Run Server
 - python manage.py runserver
 
