@@ -12,6 +12,15 @@
 ## Run Server
 - python manage.py runserver
 
+## Setup
+- To start using the application you must create an admin user, see the command below.
+- python manage.py createsuperuser (pass the required information in this process)
+
+## As an admin user, create some "normal" users
+- Access, http://127.0.0.1:8000/admin/login/ , create some users and then log in Testix
+
+## Login Testix
+- Access, http://127.0.0.1:8000/testix/ and Get Started to Sign In.
 
 ## Contribute
 
