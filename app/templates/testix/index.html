@@ -1,0 +1,25 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="{% static 'css/libs/bootstrap/bootstrap.min.css' %}">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/app/style.css' %}">
+    </head>
+    <body class=bs-docs-home>
+
+        <!-- Top page -->
+        {% if user.is_authenticated %}
+            {% include "testix/includes/menu.html" %}
+        {% else %}
+            {% include "testix/includes/initial-bar.html" %}
+        {% endif %}
+
+        <!-- Content -->
+        {% block content %}{% endblock %}
+
+        <!-- Bottom Page -->
+        {% include "testix/includes/footer.html" %}
+
+    </body>
+</html>

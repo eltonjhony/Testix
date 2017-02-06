@@ -1,0 +1,20 @@
+{% load staticfiles %}
+
+<header class="bs-docs-nav navbar navbar-static-top mast-head">
+  <nav>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img src="{% static 'images/app_logo.png' %}" width="50px" height="50px" />
+        </a>
+      </div>
+      <div class="menu-content-right-wrapper">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="{% url 'testix:logout' %}" class="button-link">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

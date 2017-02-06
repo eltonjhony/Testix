@@ -1,0 +1,23 @@
+{% extends 'testix/index.html' %}
+{% block title %}{{ title }}{% endblock title %}
+
+{% block content %}
+
+<main class=bs-docs-masthead>
+  <div class="container">
+    <p class=lead>Testix is a test tool to aid in the planning of software testing cases</p>
+    <p class=lead> <a href="{% url 'testix:login' %}" class="btn btn-outline-inverse btn-lg" >Get Started</a> </p>
+    <p class=version>v1.0.0</p>
+  </div>
+  <div class=bs-docs-featurette>
+     <div class=container>
+        <h2 class=bs-docs-featurette-title>Open Source Project</h2>
+        <h3>A simple and handy tool to help software developers plan and execute test cases quickly.</h3>
+        <hr class=half-rule>
+        <h4>Our project was born of an open source initiative, and will remain so. Join us!</h4>
+        <a href="https://github.com/eltonjhony/Testix" target="_blank" class="btn btn-outline btn-lg">View the GitHub project</a>
+     </div>
+  </div>
+</main>
+
+{% endblock content %}
