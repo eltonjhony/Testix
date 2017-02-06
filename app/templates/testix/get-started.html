@@ -6,7 +6,11 @@
 <main class=bs-docs-masthead>
   <div class="container">
     <p class=lead>Testix is a test tool to aid in the planning of software testing cases</p>
-    <p class=lead> <a href="{% url 'testix:login' %}" class="btn btn-outline-inverse btn-lg" >Get Started</a> </p>
+    {% if user.is_authenticated %}
+        <p class=lead> <a href="{% url 'testix:dashboard' %}" class="btn btn-outline-inverse btn-lg" >Get Started</a> </p>
+    {% else %}
+        <p class=lead> <a href="{% url 'testix:login' %}" class="btn btn-outline-inverse btn-lg" >Get Started</a> </p>
+    {% endif %}
     <p class=version>v1.0.0</p>
   </div>
   <div class=bs-docs-featurette>
