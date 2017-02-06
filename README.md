@@ -2,7 +2,6 @@
 # Testix [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]
 > Test tool to aid in the planning of software testing cases
 
-
 ## Install Pip
 - apt-get install python-pip
 
@@ -21,6 +20,8 @@
 
 ## Login Testix
 - Access, http://127.0.0.1:8000/testix/ and Get Started to Sign In.
+
+![screenshot from 2017-02-05 22-42-50](https://cloud.githubusercontent.com/assets/25302517/22631437/740463ce-ebf4-11e6-8e7b-50a29f0cb89f.png)
 
 ## Contribute
 
