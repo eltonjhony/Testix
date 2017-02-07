@@ -3,6 +3,7 @@ html,
 body {
   min-height: 100%;
   position: relative;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 /*
@@ -37,9 +38,8 @@ App content wrapper style*/
 
 /*
 Header styles*/
-.app-logo-wrapper {
-  text-align: center;
-  padding-top: 10px;
+.navbar-brand.app-logo-wrapper {
+  padding: 0;
 }
 .mast-head {
   top: 0;
@@ -60,6 +60,13 @@ Menu styles*/
 .menu-content-right-wrapper {
   padding: 10px;
 }
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: #fff;
+  color: #1976D2;
+  border-bottom: 2px solid #F117B4;
+  text-decoration: none;
+  transition: .2s ease-in-out;
+}
 .button-link {
   padding-left: 0;
   padding-right: 0;
@@ -73,7 +80,7 @@ Menu styles*/
 /*
 Get Started page styles*/
 .bs-docs-header, .bs-docs-masthead {
-    background-color: #f6f9fc;
+    background-color: #f2f6f9;
     padding-top: 180px;
     position: relative;
     color: #47525d;
@@ -110,6 +117,7 @@ Get Started page styles*/
     margin-top: -15px;
     margin-bottom: 30px;
     color: #47525d;
+    font-style: italic;
 }
 @media (min-width: 992px)
 .bs-docs-masthead .lead {
@@ -122,7 +130,7 @@ Get Started page styles*/
 }
 .bs-docs-masthead .lead {
   color: #47525d;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
   letter-spacing: -0.002em;
   line-height: 37px;
