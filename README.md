@@ -21,11 +21,11 @@
 ## Login Testix
 - Access, http://127.0.0.1:8000/testix/ and Get Started to Sign In.
 
-![screenshot from 2017-02-05 22-42-50](https://cloud.githubusercontent.com/assets/25302517/22631437/740463ce-ebf4-11e6-8e7b-50a29f0cb89f.png)
+![screenshot from 2017-02-07 17-12-56](https://cloud.githubusercontent.com/assets/25302517/22707174/0a42b128-ed59-11e6-9bc8-45ffdb875a77.png)
 
 ## Login Page
 
-![screenshot from 2017-02-05 22-45-14](https://cloud.githubusercontent.com/assets/25302517/22631456/dbe2ea2e-ebf4-11e6-80ef-1f43d8c5616b.png)
+![screenshot from 2017-02-07 17-13-11](https://cloud.githubusercontent.com/assets/25302517/22707193/18108e06-ed59-11e6-8204-07b63b3710b7.png)
 
 ## Contribute
 
