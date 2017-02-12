@@ -4,23 +4,22 @@
         <title>{% block title %}{% endblock %}</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/libs/bootstrap/bootstrap.min.css' %}">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/app/style.css' %}">
     </head>
     <body class=bs-docs-home>
 
         <!-- Top page -->
         {% if user.is_authenticated %}
-            {% include "testix/includes/menu.html" %}
+            {% include "includes/menu.html" %}
         {% else %}
-            {% include "testix/includes/initial-bar.html" %}
+            {% include "includes/initial-bar.html" %}
         {% endif %}
 
         <!-- Content -->
         {% block content %}{% endblock %}
 
         <!-- Bottom Page -->
-        {% include "testix/includes/footer.html" %}
+        {% include "includes/footer.html" %}
 
     </body>
 </html>

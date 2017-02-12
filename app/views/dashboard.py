@@ -1,9 +1,9 @@
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 
-from app.views.constants.general import AppConstants
-from app.views.utils.context import ContextUtils
-from app.views.utils.loader import Template
+from constants.view_constants import AppConstants
+from utils.context import ContextUtils
+from utils.loader import Template
 
 
 @login_required
